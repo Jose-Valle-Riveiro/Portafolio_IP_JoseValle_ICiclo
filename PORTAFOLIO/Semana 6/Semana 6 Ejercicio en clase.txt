@@ -1,0 +1,129 @@
+//CODIGO 1
+
+using System;
+
+
+
+class Program
+
+{
+
+    static void Main() {
+
+        //VARIABLES
+
+        double estatura;
+
+        string categoria;
+
+        
+
+        //PROCEDIMIENTO
+
+        Console.WriteLine("INGRESE LA CATEGORIA DEL JUEGO: ");
+
+        categoria = Console.ReadLine();
+
+        
+
+        //CATEGORIA 
+
+        
+
+     if (categoria == "B"){
+
+        Console.WriteLine("INGRESE SU ESTATURA: ");
+
+        estatura = Convert.ToDouble(Console.ReadLine());
+
+        if(estatura > 1.5){
+
+            Console.WriteLine("PUEDE INGRESAR AL JUEGO");
+
+        }
+
+        else{
+
+            Console.WriteLine("NO PUEDE INGRESAR AL JUEGO");
+
+        }
+
+     }//CATEGORIA
+
+     else{
+
+        Console.WriteLine("PUEDE INGRESAR AL JUEGO") ;
+
+         
+
+     }
+
+     Console.WriteLine("GRACIAS POR PARTICIPAR");
+
+        
+
+    }
+
+}
+
+
+
+//CODIGO 2
+
+using System;
+
+
+
+class Program
+
+{
+
+    static void Main() {
+
+        //VARIABLES
+
+        double sueldo;
+
+        double abono;
+
+        
+
+        //INGRESAR EL SUELDO
+
+        Console.WriteLine("INGRESE SU SUELDO: ");
+
+        sueldo = Convert.ToDouble(Console.ReadLine());
+
+        
+
+        //ALTERNATIVA
+
+        if (sueldo > 3000){
+
+            
+
+            abono = sueldo * 0.05;
+
+            
+
+            Console.WriteLine("USTED DEBE ABONAR: Q" + abono + " EN IMPUESTOS: ");
+
+        }
+
+        else {
+
+            Console.WriteLine("USTED NO DEBE ABONAR IMPUESTOS: ");
+
+        }
+
+        
+
+        
+
+        
+
+        
+
+    }
+
+}
